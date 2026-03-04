@@ -24,6 +24,7 @@ div.stats-grid:last-child {
 .workout-plan:hover {
     box-shadow: -5px 0 #F39C12;
     background-color: #FFF8BA;
+    transition: all 0.5s ease-out;
 }
 
 /* 
@@ -59,18 +60,19 @@ div.stats-grid:last-child {
 input[type="number"]:focus {
     border: 2px solid blue;
     box-shadow: 4px 4px rgba(0, 0, 255, 0.3);
+    transition: all 0.5s ease-out;
 }
 
 select:focus {
     border: 2px solid blue;
     box-shadow: 4px 4px rgba(0, 0, 255, 0.3);
-
+    transition: all 0.5s ease-out;
 }
 
 input[type="text"]:focus {
     border: 2px solid blue;
     box-shadow: 4px 4px rgba(0, 0, 255, 0.3);
-
+    transition: all 0.5s ease-out;
 }
 
 /* 
@@ -82,6 +84,7 @@ input[type="text"]:focus {
     background-color: #852aec;
     box-shadow: 4px 4px rgba(151, 22, 207, 0.3);
     bottom: 2px;
+    transition: all 1s ease-in-out;
 }
 
 /* 
@@ -122,4 +125,29 @@ a[href="#profile"]:active {
     color: blue;
 }
 
+/* 
+    VIRGOLETTE
+*/
 
+div.quote-box {
+    position: relative;
+}
+
+div.quote-box>p::before {
+    content: '"';
+    font-size: 40px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    top: 0px;
+    left: 0;
+    translate: 70% 10%;
+}
+
+div.quote-box>p::after {
+    content: '"';
+    font-size: 40px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.4);
+    bottom: 0;
+    right: 95px;
+}
