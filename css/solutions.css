@@ -72,3 +72,19 @@ input[type="text"]:focus {
     box-shadow: 4px 4px rgba(0, 0, 255, 0.3);
 
 }
+
+/* 
+    BUTTON
+*/
+
+.save-btn:hover {
+    position: relative;
+    background-color: #852aec;
+    box-shadow: 4px 4px rgba(151, 22, 207, 0.3);
+    bottom: 2px;
+}
+
+/* 
+    PERCENTUALE
+*/
+
