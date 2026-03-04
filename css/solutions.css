@@ -98,3 +98,28 @@ input[type="text"]:focus {
 
 }
 
+/* 
+    FOOTER
+*/
+
+a[href="#home"] {
+    background-color: #1b242e;
+    color: blue;
+}
+
+a[href="#workouts"]:active {
+    background-color: #1b242e;
+    color: blue;
+}
+
+a[href="#progress"]:active {
+    background-color: #1b242e;
+    color: blue;
+}
+
+a[href="#profile"]:active {
+    background-color: #1b242e;
+    color: blue;
+}
+
+
