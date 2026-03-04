@@ -1,0 +1,23 @@
+/* 
+ PRIMA SECTION STATS-CONTAINER
+*/
+
+
+.stats-grid:first-child::before{
+    content: "🔥";
+    font-family: emoji;
+    font-size: 30px;
+}
+
+div.stats-grid:last-child {
+    color: white;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.stat-number:last-child {
+    color: white;
+}
+
+/* 
+ 
+*/
