@@ -30,3 +30,24 @@ div.stats-grid:last-child {
     EXERCISE SECTION
 */
 
+.exercise-item:first-child {
+    background-color: #F0FFF4;
+    border-left: 4px solid #2ECC71;
+}
+
+.exercise-item:nth-child(2)::before {
+    content: "⚡";
+    font-family: emoji;
+    font-size: 15px;
+}
+
+.exercise-item:last-child {
+    background-color: #F0FFF4;
+    border-left: 4px solid #2ECC71;
+}
+
+.exercise-item:last-child::before {
+    content: "⚡";
+    font-family: emoji;
+    font-size: 15px;
+}
