@@ -1,9 +1,8 @@
 /* 
- PRIMA SECTION STATS-CONTAINER
+ SECTION "STATS-CONTAINER"
 */
 
-
-.stats-grid:first-child::before{
+.stats-grid:first-child::before {
     content: "🔥";
     font-family: emoji;
     font-size: 30px;
@@ -11,7 +10,7 @@
 
 div.stats-grid:last-child {
     color: white;
-	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .stat-number:last-child {
@@ -19,5 +18,15 @@ div.stats-grid:last-child {
 }
 
 /* 
- 
+ SECTION "WORKOUT-SECTION"
 */
+
+.workout-plan:hover {
+    box-shadow: -5px 0 #F39C12;
+    background-color: #FFF8BA;
+}
+
+/* 
+    EXERCISE SECTION
+*/
+
